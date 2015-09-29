@@ -7,49 +7,66 @@ using System.Threading.Tasks;
 
 namespace Dal.Repositories
 {
-    
+
     class TableRepository
     {
         RestaurantContexte ctx = null;
-        public TableRepository() {
+        public TableRepository()
+        {
             ctx = new RestaurantContexte();
         }
-       public void AddTable(Table t)
+        public void AddTable(Table t)
         {
             ctx.Tables.Add(t);
             ctx.SaveChanges();
 
         }
 
-      public IEnumerable<Table> GetAllTables()
+        public IEnumerable<Table> GetAllTables()
         {
 
             return ctx.Tables.OrderBy(t => t.numero).ToList();
         }
-      public IEnumerable<TableCouple> GetAllTablesCouple()
+        public IEnumerable<TableCouple> GetAllTablesCouple()
         {
             return ctx.Tables.OfType<TableCouple>().ToList();
         }
-       public IEnumerable<TableGroupe> Get5TablesGroupe()
+        public IEnumerable<TableGroupe> Get5TablesGroupe()
         {
             return ctx.Tables.OfType<TableGroupe>().Take(5).ToList();
         }
-       public TableCouple GetFirstTableCoupleAvailable(bool chandelle)
+        public TableCouple GetFirstTableCoupleAvailable(bool chandelle)
         {
             return ctx.Tables.OfType<TableCouple>()
                 .First(t => t.DineeChandelle == chandelle && t.isAvailable == true);
         }
-       public TableGroupe GetFirstTableGroupeAvailable(int nbPersonne)
+        public TableGroupe GetFirstTableGroupeAvailable(int nbPersonne)
         {
-            return ctx.Tables.OfType<TableGroupe>().First(t => t.nbChaise >= nbPersonne && t.isAvailable==true);
+            return ctx.Tables.OfType<TableGroupe>().First(t => t.nbChaise >= nbPersonne && t.isAvailable == true);
         }
-       public int CountTablesCoupleAvailable()
+        public int CountTablesCoupleAvailable()
         {
             return ctx.Tables.OfType<TableCouple>().Where(t => t.isAvailable == true).Count();
         }
-       public int CountTablesGroupeAvailable()
+        public int CountTablesGroupeAvailable()
         {
             return ctx.Tables.OfType<TableGroupe>().Where(t => t.isAvailable == true).Count();
         }
+        public IEnumerable<Table> GetTablesReservedTomorrow()
+        {
+            return ctx.Tables.Where(t => t.Reservations.Select(r => r.DateReservation.Day == DateTime.Now.Day + 1).Any()).ToList();
+        }
+
+        //***** To Fix ******** 
+        //!!!!! With Errors!!!!!!!!!
+        //public IEnumerable<Table> GetTablesReservedTomorrow2()
+        //{
+        //    return ctx.Tables
+        //    .Where(r => r.Reservations.Select(r => r.DateReservation.Day == DateTime.Now.Day + 1)
+        //    .Select(t => r.Table)
+        //    .Distinct()
+        //    .ToList();
+
+        //}
     }
 }

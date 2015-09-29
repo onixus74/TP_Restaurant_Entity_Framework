@@ -17,7 +17,6 @@ namespace Dal.Repositories
 
         public void AddReservation(String name, int numero, Reservation reservation)
         {
-            //if (ctx.Tables.Any(t => (t.numero == numero) && (t.isAvailable == true)) && (ctx.Menus.Any(m => m.Nom == name))
             try
             {
                 if (ctx.Tables.Any(t => t.isAvailable == true))
@@ -37,10 +36,22 @@ namespace Dal.Repositories
         }
         public IQueryable<IGrouping<int?, Reservation>> GetAllReservationByTable()
         {
-            //return ctx.Reservations.GroupByw
             var req = from r in ctx.Reservations
                       group r by r.TableId;
-            return req ;
+            return req;
+        }
+        public IEnumerable<Reservation> PlusQue5Menus()
+        {
+            return ctx.Reservations.Where(r => r.Menus.Count() > 5).ToList();
+        }
+
+        public IEnumerable<Reservation> SQLPlusQue5Menus()
+        {
+            var req = from r in ctx.Reservations
+                      where r.Menus.Count() > 5
+                      select r;
+            return req.ToList();
+
         }
     }
 }

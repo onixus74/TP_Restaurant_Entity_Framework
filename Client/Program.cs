@@ -12,9 +12,16 @@ namespace Client
     {
         static void Main(string[] args)
         {
-            MenuRepository mrepo = new MenuRepository();
+            MenuRepository mRepo = new MenuRepository();
             Menu m = new Menu { Nom = "3ejja", Prix = 6000 };
-            mrepo.AddMenu(m);
+            mRepo.AddMenu(m);
+            List<Menu> myMenu = mRepo.GetAllMenus() as List<Menu>;
+            foreach (var item in myMenu)
+            {
+                Console.WriteLine(item.Nom + " " + item.Prix);
+                Console.ReadKey();
+
+            }
         }
     }
 }
