@@ -1,0 +1,12 @@
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Release\Client.exe.config
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Release\Client.exe
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Release\Client.pdb
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Release\DAL.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Release\EntityFramework.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Release\DAL.pdb
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Release\EntityFramework.xml
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\obj\Release\Client.csprojResolveAssemblyReference.cache
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\obj\Release\Client.exe
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\obj\Release\Client.pdb

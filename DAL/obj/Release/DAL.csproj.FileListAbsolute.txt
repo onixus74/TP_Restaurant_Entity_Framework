@@ -1,0 +1,9 @@
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\DAL\bin\Release\DAL.dll.config
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\DAL\bin\Release\DAL.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\DAL\bin\Release\DAL.pdb
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\DAL\bin\Release\EntityFramework.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\DAL\bin\Release\EntityFramework.xml
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\DAL\obj\Release\DAL.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\DAL\obj\Release\DAL.pdb

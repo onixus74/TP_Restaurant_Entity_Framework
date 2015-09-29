@@ -1,0 +1,1 @@
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Debug\Client.exe.config
