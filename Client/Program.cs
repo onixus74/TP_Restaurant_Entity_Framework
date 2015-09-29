@@ -1,5 +1,5 @@
-﻿using DAL.Entities;
-using DAL.Repository;
+﻿using Dal.Enities;
+using Dal.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +12,9 @@ namespace Client
     {
         static void Main(string[] args)
         {
-           MenuRepository mRepo = new MenuRepository();
-           Menu m = new Menu {Nom = "Kafteji" , Prix = 2000};
-           mRepo.AddMenu(m);
+            MenuRepository mrepo = new MenuRepository();
+            Menu m = new Menu { Nom = "3ejja", Prix = 6000 };
+            mrepo.AddMenu(m);
         }
     }
 }

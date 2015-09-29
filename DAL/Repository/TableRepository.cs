@@ -14,13 +14,11 @@ namespace DAL.Repository
         {
             ctx = new RestaurantContext();
         }
-
         public void AddTable(Table t)
         {
             ctx.Tables.Add(t);
             ctx.SaveChanges();
         }
-
         public IEnumerable<Table> GetAllTables()
         {
             return ctx.Tables.OrderBy(t => t.numero).ToList();
@@ -29,7 +27,6 @@ namespace DAL.Repository
         {
             return ctx.Tables.OfType<TableCouple>();
         }
-
         public IEnumerable<TableGroupe> Get5TablesGroupe()
         {
             return ctx.Tables.OfType<TableGroupe>().Take(5).ToList();
@@ -37,6 +34,10 @@ namespace DAL.Repository
         public TableCouple GetFirstTableCoupleAvailable(bool chandelle)
         {
             return ctx.Tables.OfType<TableCouple>().First(t => t.DineeChandelle == chandelle && t.isAvailable == true);
+        }
+        public int CountTablesCoupleAvailable()
+        {
+            return ctx.Tables.OfType<TableCouple>().Where(t => t.isAvailable == true).Count();
         }
     }
 }

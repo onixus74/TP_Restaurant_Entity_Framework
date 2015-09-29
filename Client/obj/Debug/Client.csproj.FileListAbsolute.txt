@@ -1,1 +1,30 @@
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\bin\Debug\Client.exe.config
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\bin\Debug\Client.exe
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\bin\Debug\Client.pdb
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\bin\Debug\Dal.dll
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\bin\Debug\EntityFramework.dll
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\bin\Debug\Dal.pdb
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\bin\Debug\EntityFramework.xml
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\obj\Debug\Client.exe
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Client\obj\Debug\Client.pdb
+D:\SABBEGH\SABBEGH\Synchro\My Book\informatique\esprit\4eme SIGMA\NET\TP\TP1\Resaurant1\Client\bin\Debug\Client.exe.config
+D:\SABBEGH\SABBEGH\Synchro\My Book\informatique\esprit\4eme SIGMA\NET\TP\TP1\Resaurant1\Client\obj\Debug\Client.exe
+D:\SABBEGH\SABBEGH\Synchro\My Book\informatique\esprit\4eme SIGMA\NET\TP\TP1\Resaurant1\Client\obj\Debug\Client.pdb
+C:\Users\onixus74\Desktop\Resaurant1\Client\bin\Debug\Client.exe.config
+C:\Users\onixus74\Desktop\Resaurant1\Client\obj\Debug\Client.exe
+C:\Users\onixus74\Desktop\Resaurant1\Client\obj\Debug\Client.pdb
 C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Debug\Client.exe.config
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\obj\Debug\Client.exe
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\obj\Debug\Client.pdb
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Debug\Client.exe
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Debug\Client.pdb
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Debug\Dal.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Debug\EntityFramework.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Debug\Dal.pdb
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Debug\EntityFramework.xml
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache

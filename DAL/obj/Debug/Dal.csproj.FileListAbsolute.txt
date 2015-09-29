@@ -1,0 +1,20 @@
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Dal\bin\Debug\Dal.dll.config
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Dal\bin\Debug\Dal.dll
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Dal\bin\Debug\Dal.pdb
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Dal\bin\Debug\EntityFramework.dll
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Dal\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Dal\bin\Debug\EntityFramework.xml
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Dal\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Dal\obj\Debug\Dal.dll
+c:\users\gaz\documents\visual studio 2015\Projects\Resaurant1\Dal\obj\Debug\Dal.pdb
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Dal\bin\Debug\Dal.dll.config
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Dal\bin\Debug\Dal.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Dal\bin\Debug\Dal.pdb
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Dal\bin\Debug\EntityFramework.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Dal\bin\Debug\EntityFramework.xml
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Dal\obj\Debug\Dal.dll
+C:\Users\onixus74\Desktop\Study\dotNet\EF & LinQ To Entities\Restaurant\Dal\obj\Debug\Dal.pdb
